@@ -471,6 +471,6 @@ $(function() {
 </script>
 <script>
 document.addEventListener( 'wpcf7mailsent', function( event ) {
-    location = 'http://zd3g08.sim.zdrv.com/wpfinal/thanks/';}, false );
+    location = 'http://zd3g08.sim.zdrv.com/wpesf/thanks/';}, false );
 </script>
 </html>
