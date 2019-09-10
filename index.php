@@ -69,9 +69,11 @@
         </section>
         <!-- スマホ用ナブメニューここまで -->
         <!-- 動画の斜めエフェクト -->
+            <section class="bg_naname">
         <div class="bg"></div>
         <div class="bg bg2"></div>
         <div class="bg bg3"></div>
+</section>
         <!-- 動画の斜めエフェクト -->
         <!-- キャッチコピーここから -->
         <section class="title_box" data-aos="zoom-out" data-aos-delay="1500">
@@ -92,7 +94,7 @@
         <!-- スクロールボタンここまで -->
     </section>
     <main id="main">
-        <section>
+<!--         <section> -->
             <!-- //斜めの背景 -->
             <div class="top_sankaku" id="news"></div>
             <div class="naname_left1"></div>
@@ -102,7 +104,7 @@
             <div class="naname_left3"></div>
             <div class="naname_right3"></div>
             <div class="bottom_sankaku"></div>
-        </section><!-- 斜めの背景ここまで -->
+        <!-- </section>斜めの背景ここまで -->
         <div class="container">
             <section class="contents_left" data-aos="fade-up">
                 <!-- newsここから -->
@@ -359,8 +361,8 @@ function setBgImg(object) {
     var setH = imgH * fixScale;
 
     //画像の位置を設定
-    var moveX = Math.floor((winW - setW) / 2);
-    var moveY = Math.floor((winH - setH) / 2);
+    var moveX = Math.floor((winW - setW) / 0);
+    var moveY = Math.floor((winH - setH) / 0);
 
     //設定した数値でスタイルを適用
     object.css({
