@@ -84,7 +84,7 @@
         <!-- キャッチコピーここまで -->
         <!-- 動画 -->
         <div class="box">
-            <video src="<?php echo get_template_directory_uri(); ?>/images/top_movie.mp4" class="fitMovie" preload="metadata" autoplay loop muted>
+            <video src="<?php echo get_template_directory_uri(); ?>/images/top_movie.mp4" class="fitMovie" preload="metadata" autoplay loop muted playsinline>
         </div>
         <!-- 動画ここまで -->
     </header>
