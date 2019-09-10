@@ -12,6 +12,19 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <?php wp_head(); ?>
+<style>
+    #nav-container ul::after {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 992px;
+            height: 5px;
+            bottom: 0;
+            right: -100%;
+            z-index: 100;
+            background: rgba(50,54,57,0.9);
+}
+</style>
 </head>
 
 <body id="top">
