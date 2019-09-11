@@ -69,11 +69,9 @@
         </section>
         <!-- スマホ用ナブメニューここまで -->
         <!-- 動画の斜めエフェクト -->
-            <section class="bg_naname">
         <div class="bg"></div>
         <div class="bg bg2"></div>
         <div class="bg bg3"></div>
-</section>
         <!-- 動画の斜めエフェクト -->
         <!-- キャッチコピーここから -->
         <section class="title_box" data-aos="zoom-out" data-aos-delay="1500">
@@ -94,6 +92,7 @@
         <!-- スクロールボタンここまで -->
     </section>
     <main id="main">
+<section class="wrapwrap">
 <!--         <section> -->
             <!-- //斜めの背景 -->
             <div class="top_sankaku" id="news"></div>
@@ -228,11 +227,11 @@
                 <!-- contactここから -->
                 <article class="contact">
                     <h2>CONTACT</h2>
-                    <div class="container_contact">
-                        <div class="row body">
-                <?php echo do_shortcode( '[contact-form-7 id="5" title="お問い合わせ"]' ); ?>
-                        </div>
-                    </div>
+                    <?php echo do_shortcode( '[contact-form-7 id="25" title="お問い合わせフォーム"]' ); ?>
+<!--                     <div class="container_contact">
+                        <div class="row body"> -->
+<!--                         </div>
+                    </div> -->
                 </article>
             </section><!-- contactここまで -->
         </div><!-- continerここまで -->
@@ -266,6 +265,7 @@
                 </div>
             </article>
         </section>
+
         <!--         serviceここから -->
     </main>
     <footer>
@@ -484,8 +484,9 @@ $(function() {
     });
 });
 </script>
-<script>
+<!-- <script>
 document.addEventListener( 'wpcf7mailsent', function( event ) {
     location = 'http://zd3g08.sim.zdrv.com/wpesf/thanks/';}, false );
 </script>
-</html>
+ -->
+ </html>
