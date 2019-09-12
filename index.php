@@ -14,16 +14,17 @@
 <?php wp_head(); ?>
 <style>
     #nav-container ul::after {
-            content: "";
-            display: block;
-            position: absolute;
-            width: 992px;
-            height: 5px;
-            bottom: 0;
-            right: -100%;
-            z-index: 100;
-            background: rgba(50,54,57,0.9);
-}
+        content:"";
+        display:block;
+        position:absolute;
+        width:110%;
+        height:5px;
+        bottom:0;
+        right:-100%;
+        z-index:140;
+        background:rgba(50,54,57,0.9);
+        overflow-x:hidden
+    }
 </style>
 </head>
 
