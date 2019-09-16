@@ -77,7 +77,7 @@
         <!-- キャッチコピーここから -->
         <section class="title_box" data-aos="zoom-out" data-aos-delay="1500">
             <div class="title_text">
-                Exective Serch Firm
+                Executive search Firm
             </div>
         </section>
         <!-- キャッチコピーここまで -->
@@ -144,7 +144,7 @@
                                     <p>Name</p>
                                 </div>
                                 <div class="body">
-                                    <p>株式会社 Exective Serch</p>
+                                    <p>株式会社 Executive search</p>
                                 </div>
                             </div>
                             <div class="entry">
@@ -272,7 +272,7 @@
     <footer>
         <div class="footer">
             <small>
-                Copyright 2015-2019 Exective Serch All Rights Reserved.
+                Copyright 2015-2019 Executive search All Rights Reserved.
             </small>
         </div>
         <section class="movie">

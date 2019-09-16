@@ -27,7 +27,7 @@
     color: #FFF;
     display: inline-block;
     padding: 0.3em 0.6em 0.3em;
-    background: #1f1f1f;
+    background: #db143c;
     border-radius: 2px;
     margin-left: 3px;
 }
@@ -73,18 +73,16 @@
 }
 /*送信ボタンスタイリング*/
 .wpcf7 input[type="submit"] {
-padding: 15px;
-border: none;
-background: #db143c;
+margin: 0 0 0 20px;
 transition: 0.3s;
 }
-.wpcf7-submit:hover {
+/*.wpcf7-submit:hover {
 transform: translate3d(0px, 3px, 1px);
 -webkit-transform: translate3d(0px, 3px, 1px);
 -moz-transform: translate3d(0px, 3px, 1px);
 color: #fff;
 }
-.wpcf7 input[type="confirm"] {
+*//*.wpcf7 input[type="confirm"] {
 padding: 15px;
 border: none;
 background: #173080;
@@ -109,4 +107,4 @@ transform: translate3d(0px, 3px, 1px);
 -webkit-transform: translate3d(0px, 3px, 1px);
 -moz-transform: translate3d(0px, 3px, 1px);
 color: #fff;
-}
+}*/
